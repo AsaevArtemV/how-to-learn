@@ -31,7 +31,7 @@
 .logo__place_header {
   width: 228px;
   height: 32px;
-  }
+}
 
 .header__titel {
   position: absolute;
@@ -59,6 +59,7 @@
   color: #2f80ed;
   line-height: 25px;
   font-size: 18px;
+  text-decoration: none;
   font-weight: normal;
 }
 
@@ -273,6 +274,8 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
+  text-decoration: none;
+  color: #2f80ed;
 }
 
 .footer {
@@ -301,7 +304,6 @@
 }
 
 .logo_place_footer {
-  margin: 0;
   top: 0;
   left: 0;
 }
@@ -315,7 +317,7 @@
 }
 
 .footer__column_content_info {
-  color: white; 
+  color: white;
 }
 
 .footer__column-heading {
