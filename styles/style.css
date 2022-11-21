@@ -21,7 +21,7 @@
   height: 32px;
 }
 
-.logo__place_header {
+.logo_place_header {
   top: 30px;
   left: 64px;
   position: absolute;
@@ -194,12 +194,24 @@
 }
 
 .section-title_theme_dark {
-  margin-top: 90px;
   color: white;
+  margin-top: 90px;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: 600;
 }
 
 .section-subtitle_theme_dark {
   color: white;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 20px;
+  width: 60%;
+}
+
+.table_theme_dark {
+  margin: 0 auto 90px auto;
 }
 
 .table__cell_theme_dark {
@@ -209,6 +221,15 @@
 }
 
 .table__heading_theme_dark {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.table__text_theme_dark {
+  line-height: 1.2;
+  font-size: 18px;
   font-weight: normal;
 }
 
